@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+* {
+  /*outline: solid 1px;*/
+  /*outline-color: red;*/
+  font-family: Playfair;
+}
+
+.btn1 {
+  font-family: Oranienbaum !important;
+}
+
+.btn2 {
+  font-family: Playfair !important;
+}
+
+.diffont {
+  font-family: Oranienbaum !important;
+}
+
+.homefont {
+  font-family: Playfair !important;
+}
+
+
+@font-face {
+  font-family: 'Oranienbaum';
+  src: url('/fonts/Oranienbaum.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Playfair';
+  src: url('/fonts/Playfair.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@theme {
+  --color-taupe: #cab08d;
+  --color-rust: #9d3522;
+  --color-dark: #1a2639;
+}
